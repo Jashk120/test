@@ -1,6 +1,15 @@
-def hash_password(password):
-    import hashlib
-    return hashlib.sha256(password.encode()).hexdigest()
+pythondef_password):
+ """
+ Has a-text using-.
 
-def verify_password(password, hashed):
-    return hash_password(password) == hashed
+ Args        (): plain password hash   :
+ str The representation the- hash       hasib    hasibha(password()).dig()
+
+
+ verify(password has):
+ """
+ Ver a-text against stored- hash   :
+ passwordstr The-text to.
+ has (): known- hash compare.
+
+ Returns       : if password the, otherwise       hash(password ==hed```
