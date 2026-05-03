@@ -2,7 +2,7 @@ async function fetchUser(userId) {
     const response = await fetch(`/api/users/${userId}`);
     return response.json();
 }
-
+//fuck
 async function createUser(name, email) {
     const response = await fetch('/api/users', {
         method: 'POST',
